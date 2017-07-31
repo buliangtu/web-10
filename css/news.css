@@ -1,0 +1,678 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors Marte (iqianduan@126.com)
+ * @date    2016-10-03 13:34:58
+ * @version $Id$
+ */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color:#f0f0f0;
+}
+/* --------------头部--------------------- */
+.top{
+    height: 182px;
+    width: 100%;
+    min-width: 1000px;
+    background-image:url(../img/top-bg.png);
+    background-color: red;
+}
+
+ .top-cen{
+    width:1000px;
+    height:182px;
+    margin: 0 auto;
+    background-image: url(../img/top-cen-bg.png);
+}
+.top-ul{
+    margin-left: 60px;
+    margin-top:10px;
+    font-size: 15px;
+}
+.top-ul li{
+    float: left;
+    margin-left:38px;
+    text-align: right;
+}
+.top-ul li a{
+    color:#000;
+}
+.top-ul p{
+    color: #b3b3b3;
+}
+.top-ul li a:hover{
+    color:red;
+}
+.top-ul li:hover p{
+    color:#000;
+}
+
+/* ----------------胸部 ---------------*/
+.xiongbu{
+    width:100%;
+    min-width:1000px;
+    height:525px;
+    background-image:url(../img/datu1.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+    position:relative;
+}
+.xiongbu-ann{
+    width:1000px;
+    height:34px;
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    margin-left:-500px;
+}
+.xiongbu-ann>div{
+    float: left;
+}
+.ann-1{
+    width:57px;
+    height:34px;
+    background-image: url(../img/arr.png);
+    background-position:0 0;
+}
+.ann-1:hover{
+    background-image:url(../img/arr.png);
+    background-position:0px -34px;
+}
+.ann-2{
+    width:211px;
+    height:34px;
+    /* background-color:red; */
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-2:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-3{
+    width:211px;
+    height:34px;
+    background-color:#fff;
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-3:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-4{
+    width:211px;
+    height:34px;
+    background-color:yellow;
+    margin-left:9px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-4:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-5{
+    width:211px;
+    height:34px;
+    background-color:red;
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-5:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-6{
+    width:57px;
+    height:34px;
+    margin-left:8px;
+    background-image: url(../img/arr.png);
+    background-position:-57px 0;
+}
+.ann-6:hover{
+    background-position:-57px -34px;
+}
+
+/* --------------腹部----------------------- */
+.fubu{
+    width:1000px;
+    height:98px;
+    position:relative;
+    margin: 2px auto;
+}
+.fubu>div{
+    float: left;
+}
+.zaixian-1{
+    width:260px;
+    height:98px;
+}
+.zaixian-2{
+    width:188px;
+    height:98px;
+    margin-left:2px;
+}
+.zaixian-3{
+    width:184px;
+    height:98px;
+    margin-left:1px;
+    background-image:url(../img/lianjie-3.gif);
+}
+.zaixian-4{
+    width:363px;
+    height: 98px;
+    margin-left:1px;
+}
+
+/* ---------------------臀部 -----------------------*/
+.tunbu{
+    width:980px;
+    height:965px;
+    background-color:#fff;
+    position:relative;
+    margin:12px auto 0;
+    padding-top:15px;
+    padding-left:20px;
+}
+.tunbu>div{
+    float: left;
+}
+.tunbu-zuo{
+    width:654px;
+    height:874px;
+}
+.tunbu-zuo>a{
+    color:#000;
+    font-size:12px;
+}
+.tunbu-logo{
+    width:654px;
+    height:88px;
+    background-image:url(../img/huodong-logo.png);
+    margin-top:5px;
+}
+.tunbu-zuo-1{
+    width:654px;
+    height:73px;
+    padding-top:10px;
+    border-bottom: 1px dashed gray;
+}
+.tunbu-zuo-1>div{
+    float: left;
+}
+.tunbu-zuo>p{
+    color:#b3b3b3;
+}
+.tunbu-zuo-1-1{
+    width:63px;
+    height:55px;
+    padding-top:10px;
+    background-image:url(../img/libg11.gif);
+}
+.tunbu-zuo div:hover .tunbu-zuo-1-1{
+    background-position:0 -66px;
+    color:#fff;
+}
+.tunbu-zuo-1-1>b{
+    font-size:30px;
+}
+.tunbu-zuo-1-1>p{
+    font-size:10px;
+    margin-top:5px;
+    margin-left:5px;
+}
+.tunbu-zuo-1-2{
+    width:580px;
+    height:65px;
+    margin-left:11px;
+    font-size:10px;
+}
+ .tunbu-zuo-1-2>b{
+    font-size:15px;
+}
+.tunbu-yeshu{
+    width:980px;
+    height:52px;
+    padding-top:20px;
+    padding-left:20px;
+}
+.tunbu-yeshu div{
+    float: left;
+    border:1px solid gray;
+}
+.yeshu-1{
+    width:50px;
+    height:25px;
+    padding-top:5px;
+    padding-left:5px;
+    color:#b3b3b3;
+    margin-left:5px;
+}
+.yeshu-2{
+    width:15px;
+    height:25px;
+    padding-top: 5px;
+    padding-left:5px;
+    margin-left:5px;
+    color:#b3b3b3;
+}
+.yeshu-3{
+    width:15px;
+    height:25px;
+    padding-top: 5px;
+    padding-left:5px;
+    margin-left:5px;
+    color:#b3b3b3;
+}
+.yeshu-4{
+    width:15px;
+    height:25px;
+    padding-top: 5px;
+    padding-left:5px;
+    margin-left:5px;
+    color:#b3b3b3;
+}
+.yeshu-5{
+    width:15px;
+    height:25px;
+    padding-top: 5px;
+    padding-left:5px;
+    margin-left:5px;
+    color:#b3b3b3;
+}
+.yeshu-6{
+    width:50px;
+    height:25px;
+    padding-top: 5px;
+    padding-left:5px;
+    margin-left:5px;
+    color:#b3b3b3;
+}
+.yeshu-7{
+    width:60px;
+    height:25px;
+    padding-top: 5px;
+    padding-left:5px;
+    margin-left:5px;
+    color:#b3b3b3;
+}
+.yeshu-8{
+    width:100px;
+    height:25px;
+    padding-top:5px;
+    padding-left:5px;
+    margin-left: 537px;
+    background-color:#b3b3b3;
+    color:#fff;
+}
+.yeshu-2:hover{
+    background-color:red;
+}
+.yeshu-3:hover{
+    background-color:red;
+}
+.yeshu-4:hover{
+    background-color:red;
+}
+.yeshu-5:hover{
+    background-color:red;
+}
+.yeshu-6:hover{
+    background-color:red;
+}
+.yeshu-8:hover{
+    background-color:red;
+}
+
+
+.tunbu-you{
+    width:292px;
+    height:850px;
+    margin-left:25px;
+    margin-top:24px;
+}
+.biaoti-1{
+    width:292px;
+    height:450px;
+}
+.biaoti-1-1{
+    width:252px;
+    height:26px;
+    background-image:url(../img/libg16.gif);
+    background-repeat:no-repeat;
+    padding-top:7px;
+    padding-left:40px;
+}
+.biaoti-1-1 b{
+    color:#fff;
+}
+.biaoti-1-2{
+    width:292px;
+    height:407px;
+    margin-top:10px;
+}
+.biaoti-1-2>div{
+    float: left;
+    margin-left:10px;
+}
+.you-tu-1{
+    width:132px;
+    height:130px;
+}
+.you-tu-1-1{
+    width:124px;
+    height:96px;
+    border:1px solid gray;
+    padding-top:4px;
+    padding-left:6px;
+}
+.you-tu-1-2{
+    width:110px;
+    height:28px;
+    margin-left:5px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height:28px;
+}
+.you-tu-1-2 a{
+    color:#000;
+    font-size:14px;
+}
+.you-tu-1:hover a{
+    color:red;
+}
+.you-tu-1:hover .you-tu-1-1{
+    -webkit-transform: translate(10px, -10px);
+      -moz-transform: translate(10px, -10px);
+        -ms-transform: translate(10px, -10px);
+          -o-transform: translate(10px, -10px);
+            transform: translate(10px, -10px);
+}
+.biaoti-2{
+    width:292px;
+    height:400px;
+}
+.biaoti-2-1{
+    width:252px;
+    height:26px;
+    background-image:url(../img/libg16.gif);
+    background-repeat:no-repeat;
+    padding-left:40px;
+    padding-top:7px;
+}
+.biaoti-2-1 b{
+    color:#fff;
+}
+.biaoti-2> ul{
+    margin-top:10px;
+}
+.biaoti-2 ul li{
+    width:277px;
+    height:25px;
+    padding-left:15px;
+    padding-top:5px;
+    list-style-type:disc;
+    list-style-position:inside;
+}
+.biaoti-2> ul li a{
+    color:#000;
+    font-size:14px;
+}
+.biaoti-2 ul li:hover{
+    background-color:red;
+    color:#fff;
+}
+.biaoti-2 ul li:hover a{
+    color:#fff;
+}
+
+
+/* ---------------大腿--------------------------- */
+.datui{
+    width:100%;
+    min-width:1000px;
+    height:250px;
+    background-image:url(../img/oo_03.png);
+    position:relative;
+    margin-top:12px;
+}
+.datui-cen{
+    width:1000px;
+    height:250px;
+    position:relative;
+    margin:0 auto;
+}
+.datui-cen>div{
+    float: left;
+    width:162px;
+    height:240px;
+    margin-top:10px;
+}
+.datui-cen>div ul li{
+    list-style-type:disc;
+    list-style-position:inside;
+    color:#979797;
+}
+.datui-cen>div ul li a{
+    font-size:13px;
+    color:#979797;
+}
+#cen-logo{
+    width:300px;
+    height:240px;
+    margin-left:10px;
+    background-image:url(../img/logo-5.png);
+    color:#979797;
+    font-size:13px;
+    position:relative;
+}
+#cen-logo p{
+    position:absolute;
+    top:136px;
+    left:132px;
+}
+#cen-logo span{
+    position:absolute;
+    top:174px;
+    left:132px;
+}
+.cen-1{
+    margin-left:12px;
+}
+.cen-2{
+    margin-left:10px;
+}
+.cen-3{
+    margin-left:10px;
+}
+.cen-4{
+    margin-left:10px;
+}
+.cen-1-1{
+    width:162px;
+    height:120px;
+}
+.cen-1-1-1{
+    width:162px;
+    height:24px;
+    background-image:url(../img/bottom_02.gif)
+}
+.cen-1-2{
+    width:162px;
+    height:120px;
+}
+.cen-2-1{
+    width:162px;
+    height:120px;
+}
+.cen-2-2{
+    width:162px;
+    height:120px;
+}
+.cen-1-1>ul{
+    margin-top:5px;
+}
+.cen-2-1>ul{
+    margin-top:5px;
+}
+.cen-3>ul{
+    margin-top:5px;
+}
+.cen-4>ul{
+    margin-top:5px;
+}
+.cen-1-1>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-1-1>ul li a{
+    color:#fff;
+}
+
+.datui-cen>div>div:hover .cen-1-1-1{
+    background-image:url(../img/bottom_01.gif);
+}
+
+.cen-3:hover .cen-1-1-1{
+   background-image:url(../img/bottom_01.gif) ;
+}
+.cen-4:hover .cen-1-1-1{
+   background-image:url(../img/bottom_01.gif) ;
+}
+.ul-1-1:hover{
+    background-color:#676767;
+}
+.ul-1-2:hover{
+    background-color:#676767;
+}
+.ul-1-3:hover{
+    background-color:#676767;
+}
+.ul-1-4:hover{
+    background-color:#676767;
+}
+.cen-1-2>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-1-2>ul li a{
+    color:#fff;
+}
+.cen-2-1>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-2-1>ul li a{
+    color:#fff;
+}
+.cen-2-2>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-2-2>ul li a{
+    color:#fff;
+}
+.cen-3>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-3>ul li a{
+    color:#fff;
+}
+.cen-4>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-4>ul li a{
+    color:#fff;
+}
+
+
+/* --------------------小腿----------------------- */
+
+.xiaotui{
+    width:100%;
+    min-width:1000px;
+    height:112px;
+    background-image:url(../img/06.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+}
+.xiaotui-cen{
+    width:570px;
+    height:112px;
+    margin:0 auto;
+    background-image:url(../img/03.png);
+}
+
+.xiaotui2{
+    width:100%;
+    min-width:1000px;
+    height:68px;
+    background-color:#1f1f1f;
+}
+.xiaotui2-cen{
+    width:980px;
+    height:58px;
+    margin:0 auto;
+    font-size:12px;
+    padding-top:10px;
+    padding-left:20px;
+    line-height:24px;
+    color:#7f7f7f;
+}
+
+
+/* ---------------------脚 ---------------------------------*/
+
+.jiao{
+    width:100%;
+    min-width:1000px;
+    height:110px;
+    background-color:#000;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+}
+.jiao-cen{
+    width:1000px;
+    height:110px;
+    margin:0 auto;
+    position:relative;
+}
+.jiao-cen span{
+    font-size:14px;
+    position:absolute;
+    top:30px;
+    left:25px;
+    color:#fff;
+}
+.jiao-cen p{
+    position:absolute;
+    top:28px;
+    left:100px;
+}
+.jiao-cen p a{
+    color:#fff;
+    font-size:14px;
+}
+.jiao-cen p:hover a{
+    color:red;
+}

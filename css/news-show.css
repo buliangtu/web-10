@@ -1,0 +1,590 @@
+ @charset "UTF-8";
+/**
+ *
+ * @authors Marte (iqianduan@126.com)
+ * @date    2016-10-03 13:34:58
+ * @version $Id$
+ */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color:#f0f0f0;
+}
+/* --------------头部--------------------- */
+.top{
+    height: 182px;
+    width: 100%;
+    min-width: 1000px;
+    background-image:url(../img/top-bg.png);
+    background-color: red;
+}
+
+ .top-cen{
+    width:1000px;
+    height:182px;
+    margin: 0 auto;
+    background-image: url(../img/top-cen-bg.png);
+}
+.top-ul{
+    margin-left: 60px;
+    margin-top:10px;
+    font-size: 15px;
+}
+.top-ul li{
+    float: left;
+    margin-left:38px;
+    text-align: right;
+}
+.top-ul li a{
+    color:#000;
+}
+.top-ul p{
+    color: #b3b3b3;
+}
+.top-ul li a:hover{
+    color:red;
+}
+.top-ul li:hover p{
+    color:#000;
+}
+#top-ul-6{
+    margin-left:38px;
+}
+#top-ul-8{
+    margin-left:38px;
+}
+
+/* ----------------胸部 ---------------*/
+.xiongbu{
+    width:100%;
+    min-width:1000px;
+    height:525px;
+    background-image:url(../img/datu1.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+    position:relative;
+}
+.xiongbu-ann{
+    width:1000px;
+    height:34px;
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    margin-left:-500px;
+}
+.xiongbu-ann>div{
+    float: left;
+}
+.ann-1{
+    width:57px;
+    height:34px;
+    background-image: url(../img/arr.png);
+    background-position:0 0;
+}
+.ann-1:hover{
+    background-image:url(../img/arr.png);
+    background-position:0px -34px;
+}
+.ann-2{
+    width:211px;
+    height:34px;
+    /* background-color:red; */
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-2:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-3{
+    width:211px;
+    height:34px;
+    background-color:#fff;
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-3:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-4{
+    width:211px;
+    height:34px;
+    background-color:yellow;
+    margin-left:9px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-4:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-5{
+    width:211px;
+    height:34px;
+    background-color:red;
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-5:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-6{
+    width:57px;
+    height:34px;
+    /* background-color:yellow; */
+    margin-left:8px;
+    background-image: url(../img/arr.png);
+    background-position:-57px 0;
+}
+.ann-6:hover{
+    background-position:-57px -34px;
+}
+
+/* --------------腹部----------------------- */
+.fubu{
+    width:1000px;
+    height:98px;
+    position:relative;
+    /* margin-top:2px; */
+    margin: 2px auto;
+}
+.fubu>div{
+    float: left;
+}
+.zaixian-1{
+    width:260px;
+    height:98px;
+}
+.zaixian-2{
+    width:188px;
+    height:98px;
+    margin-left:2px;
+}
+.zaixian-3{
+    width:184px;
+    height:98px;
+    margin-left:1px;
+    background-image:url(../img/lianjie-3.gif)
+}
+.zaixian-4{
+    width:363px;
+    height: 98px;
+    margin-left:1px;
+}
+
+/* -------------------腰部--------------------- */
+.yaobu{
+    width:980px;
+    height:965px;
+    background-color:#fff;
+    margin:12px auto 0;
+    padding-top:15px;
+    padding-left:20px;
+}
+.yaobu>div{
+    float: left;
+}
+.yaobu-zuo{
+    width:650px;
+    height:965px;
+}
+
+#span-1{
+    font-weight: bold;
+    font-size:15px;
+    line-height: 30px;
+}
+.yaobu-zuo a{
+    font-size:12px;
+    color:#000;
+}
+#span-2{
+    font-size:12px;
+}
+.yaobu-zuo-1{
+    width:650px;
+    height:30px;
+    background-color:red;
+    line-height:30px;
+    color:#fff;
+    font-size:15px;
+    text-align:center;
+}
+.yaobu-zuo-2{
+    width:650px;
+    height:55px;
+    font-size:14px;
+    padding-top:15px;
+    line-height:20px;
+}
+.yaobu-zuo-3{
+    width:650px;
+    height:337px;
+    font-size:13px;
+    padding-top:5px;
+}
+.yaobu-zuo-3 p{
+    line-height:25px;
+}
+.yaobu-zuo-3 a{
+    font-size:13px;
+}
+.yaobu-zuo-3 a:hover{
+    color:red;
+}
+
+.yaobu-you{
+    width:290px;
+    height:940px;
+    margin-left:30px;
+    margin-top:25px;
+}
+.yaobu-you-1{
+    width:252px;
+    height:33px;
+    background-image:url(../img/libg16.gif);
+    padding-left:40px;
+    color:#fff;
+    line-height:33px;
+}
+.yaobu-you ul li{
+    width:287px;
+    height:30px;
+    list-style-type:disc;
+    list-style-position:inside;
+    line-height:30px;
+    padding-left:5px;
+    font-size:14px;
+    margin-top:5px;
+}
+.yaobu-you ul li:hover{
+    background-color:red;
+    color:#fff;
+}
+.yaobu-you ul li a{
+    color:#000;
+    width:100px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.yaobu-you-2{
+    width:252px;
+    height:33px;
+    background-image:url(../img/libg16.gif);
+    padding-left:40px;
+    line-height:33px;
+    color:#fff;
+    margin-top:15px;
+}
+.yaobu-you-2 p{
+    font-weight:bold;
+}
+.yaobu-you-3{
+    width:292px;
+    height:410px;
+    padding-top:5px;
+}
+.yaobu-you-3>div{
+    float: left;
+    margin-left:10px;
+    margin-top:5px;
+}
+.you-tu-1{
+    width:132px;
+    height:130px;
+}
+.you-tu-1-1{
+    width:124px;
+    height:96px;
+    border:1px solid gray;
+    padding-top:4px;
+    padding-left:6px;
+}
+.you-tu-1-2{
+    width:110px;
+    height:28px;
+    margin-left:5px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height:28px;
+}
+.you-tu-1-2 a{
+    color:#000;
+    font-size:14px;
+}
+.you-tu-1:hover a{
+    color:red;
+}
+.you-tu-1:hover .you-tu-1-1{
+    -webkit-transform: translate(10px, -10px);
+      -moz-transform: translate(10px, -10px);
+        -ms-transform: translate(10px, -10px);
+          -o-transform: translate(10px, -10px);
+            transform: translate(10px, -10px);
+}
+.yaobu-you-4{
+    width:252px;
+    height:33px;
+    background-image:url(../img/libg16.gif);
+    line-height:33px;
+    padding-left:40px;
+    margin-top:10px;
+}
+.yaobu-you-4 {
+    font-weight:bold;
+    color:#fff;
+}
+
+
+
+
+/* ---------------大腿--------------------------- */
+.datui{
+    width:100%;
+    min-width:1000px;
+    height:250px;
+    background-image:url(../img/oo_03.png);
+    position:relative;
+    margin-top:12px;
+}
+.datui-cen{
+    width:1000px;
+    height:250px;
+    position:relative;
+    margin:0 auto;
+}
+.datui-cen>div{
+    float: left;
+    width:162px;
+    height:240px;
+    margin-top:10px;
+}
+.datui-cen>div ul li{
+    list-style-type:disc;
+    list-style-position:inside;
+    color:#979797;
+}
+.datui-cen>div ul li a{
+    font-size:13px;
+    color:#979797;
+}
+#cen-logo{
+    width:300px;
+    height:240px;
+    margin-left:10px;
+    background-image:url(../img/logo-5.png);
+    color:#979797;
+    font-size:13px;
+    position:relative;
+}
+#cen-logo p{
+    position:absolute;
+    top:136px;
+    left:132px;
+}
+#cen-logo span{
+    position:absolute;
+    top:174px;
+    left:132px;
+}
+.cen-1{
+    margin-left:12px;
+}
+.cen-2{
+    margin-left:10px;
+}
+.cen-3{
+    margin-left:10px;
+}
+.cen-4{
+    margin-left:10px;
+}
+.cen-1-1{
+    width:162px;
+    height:120px;
+}
+.cen-1-1-1{
+    width:162px;
+    height:24px;
+    background-image:url(../img/bottom_02.gif)
+}
+.cen-1-2{
+    width:162px;
+    height:120px;
+}
+.cen-2-1{
+    width:162px;
+    height:120px;
+}
+.cen-2-2{
+    width:162px;
+    height:120px;
+}
+.cen-1-1>ul{
+    margin-top:5px;
+}
+.cen-2-1>ul{
+    margin-top:5px;
+}
+.cen-3>ul{
+    margin-top:5px;
+}
+.cen-4>ul{
+    margin-top:5px;
+}
+.cen-1-1>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-1-1>ul li a{
+    color:#fff;
+}
+
+.datui-cen>div>div:hover .cen-1-1-1{
+    background-image:url(../img/bottom_01.gif);
+}
+
+.cen-3:hover .cen-1-1-1{
+   background-image:url(../img/bottom_01.gif) ;
+}
+.cen-4:hover .cen-1-1-1{
+   background-image:url(../img/bottom_01.gif) ;
+}
+.ul-1-1:hover{
+    background-color:#676767;
+}
+.ul-1-2:hover{
+    background-color:#676767;
+}
+.ul-1-3:hover{
+    background-color:#676767;
+}
+.ul-1-4:hover{
+    background-color:#676767;
+}
+.cen-1-2>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-1-2>ul li a{
+    color:#fff;
+}
+.cen-2-1>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-2-1>ul li a{
+    color:#fff;
+}
+.cen-2-2>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-2-2>ul li a{
+    color:#fff;
+}
+.cen-3>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-3>ul li a{
+    color:#fff;
+}
+.cen-4>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-4>ul li a{
+    color:#fff;
+}
+
+
+/* --------------------小腿----------------------- */
+
+.xiaotui{
+    width:100%;
+    min-width:1000px;
+    height:112px;
+    background-image:url(../img/06.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+}
+.xiaotui-cen{
+    width:570px;
+    height:112px;
+    margin:0 auto;
+    background-image:url(../img/03.png);
+}
+
+.xiaotui2{
+    width:100%;
+    min-width:1000px;
+    height:68px;
+    background-color:#1f1f1f;
+}
+.xiaotui2-cen{
+    width:980px;
+    height:58px;
+    margin:0 auto;
+    font-size:12px;
+    padding-top:10px;
+    padding-left:20px;
+    line-height:24px;
+    color:#7f7f7f;
+}
+
+
+/* ---------------------脚 ---------------------------------*/
+
+.jiao{
+    width:100%;
+    min-width:1000px;
+    height:110px;
+    background-color:#000;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+}
+.jiao-cen{
+    width:1000px;
+    height:110px;
+    margin:0 auto;
+    position:relative;
+}
+.jiao-cen span{
+    font-size:14px;
+    position:absolute;
+    top:30px;
+    left:25px;
+    color:#fff;
+}
+.jiao-cen p{
+    position:absolute;
+    top:28px;
+    left:100px;
+}
+.jiao-cen p a{
+    color:#fff;
+    font-size:14px;
+}
+.jiao-cen p:hover a{
+    color:red;
+}

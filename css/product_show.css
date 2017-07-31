@@ -1,0 +1,526 @@
+ @charset "UTF-8";
+/**
+ *
+ * @authors Marte (iqianduan@126.com)
+ * @date    2016-10-03 13:34:58
+ * @version $Id$
+ */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color:#f0f0f0;
+}
+/* --------------头部--------------------- */
+.top{
+    height: 182px;
+    width: 100%;
+    min-width: 1000px;
+    background-image:url(../img/top-bg.png);
+    background-color: red;
+}
+
+ .top-cen{
+    width:1000px;
+    height:182px;
+    margin: 0 auto;
+    background-image: url(../img/top-cen-bg.png);
+}
+.top-ul{
+    margin-left: 60px;
+    margin-top:10px;
+    font-size: 15px;
+}
+.top-ul li{
+    float: left;
+    margin-left:38px;
+    text-align: right;
+}
+.top-ul li a{
+    color:#000;
+}
+.top-ul p{
+    color: #b3b3b3;
+}
+.top-ul li a:hover{
+    color:red;
+}
+.top-ul li:hover p{
+    color:#000;
+}
+
+/* ----------------胸部 ---------------*/
+.xiongbu{
+    width:100%;
+    min-width:1000px;
+    height:525px;
+    background-image:url(../img/datu1.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+    position:relative;
+}
+.xiongbu-ann{
+    width:1000px;
+    height:34px;
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    margin-left:-500px;
+}
+.xiongbu-ann>div{
+    float: left;
+}
+.ann-1{
+    width:57px;
+    height:34px;
+    background-image: url(../img/arr.png);
+    background-position:0 0;
+}
+.ann-1:hover{
+    background-image:url(../img/arr.png);
+    background-position:0px -34px;
+}
+.ann-2{
+    width:211px;
+    height:34px;
+    /* background-color:red; */
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-2:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-3{
+    width:211px;
+    height:34px;
+    background-color:#fff;
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-3:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-4{
+    width:211px;
+    height:34px;
+    background-color:yellow;
+    margin-left:9px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-4:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-5{
+    width:211px;
+    height:34px;
+    background-color:red;
+    margin-left:8px;
+    background-image:url(../img/ann-2.png);
+}
+.ann-5:hover{
+    background-image:url(../img/ann-1.png);
+}
+.ann-6{
+    width:57px;
+    height:34px;
+    /* background-color:yellow; */
+    margin-left:8px;
+    background-image: url(../img/arr.png);
+    background-position:-57px 0;
+}
+.ann-6:hover{
+    background-position:-57px -34px;
+}
+
+/* --------------腹部----------------------- */
+.fubu{
+    width:1000px;
+    height:98px;
+    position:relative;
+    /* margin-top:2px; */
+    margin: 2px auto;
+}
+.fubu>div{
+    float: left;
+}
+.zaixian-1{
+    width:260px;
+    height:98px;
+}
+.zaixian-2{
+    width:188px;
+    height:98px;
+    margin-left:2px;
+}
+.zaixian-3{
+    width:184px;
+    height:98px;
+    margin-left:1px;
+    background-image:url(../img/lianjie-3.gif)
+}
+.zaixian-4{
+    width:363px;
+    height: 98px;
+    margin-left:1px;
+}
+/* -----------------中间----------------------- */
+.zhong{
+    width:980px;
+    height:840px;
+    margin:12px auto;
+    padding-top: 10px;
+    padding-left:20px;
+}
+.zhong-top{
+    width:100%;
+    height:30px;
+    text-align:center;
+    line-height: 30px;
+}
+.zhong-top p{
+    font-size:20px;
+    font-weight: bold;
+}
+.zhong-dizi{
+    width:100%;
+    height:30px;
+    margin-top:20px;
+    line-height:30px;
+}
+.zhong-dizi span{
+    font-size:14px;
+    font-weight:bold;
+}
+.zhong-dizi a{
+    font-size:12px;
+    color:#000;
+}
+.zhong-dizi a:hover{
+    color:red;
+}
+.zhong-daohangtu{
+    width:520px;
+    height:84px;
+    margin:20px auto;
+}
+.zhong-daohangtu ul li{
+    width:84px;
+    height:84px;
+    margin-left:10px;
+    float: left;
+    background-image:url(../img/ico_none.gif);
+}
+#li-1{
+    width:13px;
+    height:43px;
+    margin-top: 10px;
+}
+#li-1:hover{
+    background-image:url(../img/da-bg.png);
+}
+
+#li-6{
+    width:13px;
+    height:43px;
+    margin-top: 10px;
+}
+#li-6:hover{
+    background-image:url(../img/da-bg.png);
+}
+.zhong-daohangtu ul li:hover{
+    background-image:url(../img/ico_bg.gif);
+}
+.zhong-daohangtu ul li>div{
+    width:78px;
+    height:58px;
+    margin-left:3px;
+    margin-top:3px;
+}
+.tu1{
+    width:78px;
+    height:58px;
+}
+.tu2{
+    width:78px;
+    height:58px;
+}
+.tu{
+    position:relative;
+}
+.yeshu{
+    position:absolute;
+    width: 40px;
+    height:20px;
+    bottom:1px;
+    background-color:#000;
+    line-height: 20px;
+    text-align:center;
+}
+.yeshu p{
+    font-size:13px;
+    color:#fff;
+}
+.zhong-datu{
+    width:600px;
+    height:600px;
+    margin:20px auto;
+    background-image:url(../img/tu-1.jpg);
+
+}
+#li-2,#li-3,#li-4,#li-5:hover .zhong-datu{
+    background-image:url(../img/datu-4.jpg);
+}
+
+
+
+
+/* ---------------大腿--------------------------- */
+.datui{
+    width:100%;
+    min-width:1000px;
+    height:250px;
+    background-image:url(../img/oo_03.png);
+    position:relative;
+    margin-top:12px;
+}
+.datui-cen{
+    width:1000px;
+    height:250px;
+    position:relative;
+    margin:0 auto;
+}
+.datui-cen>div{
+    float: left;
+    width:162px;
+    height:240px;
+    margin-top:10px;
+}
+.datui-cen>div ul li{
+    list-style-type:disc;
+    list-style-position:inside;
+    color:#979797;
+}
+.datui-cen>div ul li a{
+    font-size:13px;
+    color:#979797;
+}
+#cen-logo{
+    width:300px;
+    height:240px;
+    margin-left:10px;
+    background-image:url(../img/logo-5.png);
+    color:#979797;
+    font-size:13px;
+    position:relative;
+}
+#cen-logo p{
+    position:absolute;
+    top:136px;
+    left:132px;
+}
+#cen-logo span{
+    position:absolute;
+    top:174px;
+    left:132px;
+}
+.cen-1{
+    margin-left:12px;
+}
+.cen-2{
+    margin-left:10px;
+}
+.cen-3{
+    margin-left:10px;
+}
+.cen-4{
+    margin-left:10px;
+}
+.cen-1-1{
+    width:162px;
+    height:120px;
+}
+.cen-1-1-1{
+    width:162px;
+    height:24px;
+    background-image:url(../img/bottom_02.gif)
+}
+.cen-1-2{
+    width:162px;
+    height:120px;
+}
+.cen-2-1{
+    width:162px;
+    height:120px;
+}
+.cen-2-2{
+    width:162px;
+    height:120px;
+}
+.cen-1-1>ul{
+    margin-top:5px;
+}
+.cen-2-1>ul{
+    margin-top:5px;
+}
+.cen-3>ul{
+    margin-top:5px;
+}
+.cen-4>ul{
+    margin-top:5px;
+}
+.cen-1-1>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-1-1>ul li a{
+    color:#fff;
+}
+
+.datui-cen>div>div:hover .cen-1-1-1{
+    background-image:url(../img/bottom_01.gif);
+}
+
+.cen-3:hover .cen-1-1-1{
+   background-image:url(../img/bottom_01.gif) ;
+}
+.cen-4:hover .cen-1-1-1{
+   background-image:url(../img/bottom_01.gif) ;
+}
+.ul-1-1:hover{
+    background-color:#676767;
+}
+.ul-1-2:hover{
+    background-color:#676767;
+}
+.ul-1-3:hover{
+    background-color:#676767;
+}
+.ul-1-4:hover{
+    background-color:#676767;
+}
+.cen-1-2>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-1-2>ul li a{
+    color:#fff;
+}
+.cen-2-1>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-2-1>ul li a{
+    color:#fff;
+}
+.cen-2-2>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-2-2>ul li a{
+    color:#fff;
+}
+.cen-3>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-3>ul li a{
+    color:#fff;
+}
+.cen-4>ul li{
+    width:152px;
+    height:22px;
+    padding-left:10px;
+}
+.cen-4>ul li a{
+    color:#fff;
+}
+
+
+/* --------------------小腿----------------------- */
+
+.xiaotui{
+    width:100%;
+    min-width:1000px;
+    height:112px;
+    background-image:url(../img/06.png);
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+}
+.xiaotui-cen{
+    width:570px;
+    height:112px;
+    margin:0 auto;
+    background-image:url(../img/03.png);
+}
+
+.xiaotui2{
+    width:100%;
+    min-width:1000px;
+    height:68px;
+    background-color:#1f1f1f;
+}
+.xiaotui2-cen{
+    width:980px;
+    height:58px;
+    margin:0 auto;
+    font-size:12px;
+    padding-top:10px;
+    padding-left:20px;
+    line-height:24px;
+    color:#7f7f7f;
+}
+
+
+/* ---------------------脚 ---------------------------------*/
+
+.jiao{
+    width:100%;
+    min-width:1000px;
+    height:110px;
+    background-color:#000;
+    background-repeat:no-repeat;
+    background-position:0 0;
+    background-size:cover;
+}
+.jiao-cen{
+    width:1000px;
+    height:110px;
+    margin:0 auto;
+    position:relative;
+}
+.jiao-cen span{
+    font-size:14px;
+    position:absolute;
+    top:30px;
+    left:25px;
+    color:#fff;
+}
+.jiao-cen p{
+    position:absolute;
+    top:28px;
+    left:100px;
+}
+.jiao-cen p a{
+    color:#fff;
+    font-size:14px;
+}
+.jiao-cen p:hover a{
+    color:red;
+}
